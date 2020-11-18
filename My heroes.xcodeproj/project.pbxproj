@@ -14,6 +14,7 @@
 		B94D770F254A3FFC008E4F6E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B94D770E254A3FFC008E4F6E /* Assets.xcassets */; };
 		B94D7712254A3FFC008E4F6E /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B94D7710254A3FFC008E4F6E /* LaunchScreen.storyboard */; };
 		B94D771B254A409E008E4F6E /* UserInputTextField.swift in Sources */ = {isa = PBXBuildFile; fileRef = B94D771A254A409E008E4F6E /* UserInputTextField.swift */; };
+		B9708E712565DD4B0001C091 /* ForgetPasswordViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B9708E702565DD4B0001C091 /* ForgetPasswordViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +27,7 @@
 		B94D7711254A3FFC008E4F6E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		B94D7713254A3FFC008E4F6E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		B94D771A254A409E008E4F6E /* UserInputTextField.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserInputTextField.swift; sourceTree = "<group>"; };
+		B9708E702565DD4B0001C091 /* ForgetPasswordViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ForgetPasswordViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -66,6 +68,7 @@
 				B94D7710254A3FFC008E4F6E /* LaunchScreen.storyboard */,
 				B94D7713254A3FFC008E4F6E /* Info.plist */,
 				B94D771A254A409E008E4F6E /* UserInputTextField.swift */,
+				B9708E702565DD4B0001C091 /* ForgetPasswordViewController.swift */,
 			);
 			path = "My heroes";
 			sourceTree = "<group>";
@@ -142,6 +145,7 @@
 			files = (
 				B94D770A254A3FFB008E4F6E /* LoginViewController.swift in Sources */,
 				B94D7706254A3FFB008E4F6E /* AppDelegate.swift in Sources */,
+				B9708E712565DD4B0001C091 /* ForgetPasswordViewController.swift in Sources */,
 				B94D7708254A3FFB008E4F6E /* SceneDelegate.swift in Sources */,
 				B94D771B254A409E008E4F6E /* UserInputTextField.swift in Sources */,
 			);
