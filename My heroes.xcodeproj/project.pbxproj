@@ -15,6 +15,10 @@
 		B94D7712254A3FFC008E4F6E /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B94D7710254A3FFC008E4F6E /* LaunchScreen.storyboard */; };
 		B94D771B254A409E008E4F6E /* UserInputTextField.swift in Sources */ = {isa = PBXBuildFile; fileRef = B94D771A254A409E008E4F6E /* UserInputTextField.swift */; };
 		B9708E712565DD4B0001C091 /* ForgetPasswordViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B9708E702565DD4B0001C091 /* ForgetPasswordViewController.swift */; };
+		B9708E752565E61E0001C091 /* Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = B9708E742565E61E0001C091 /* Extensions.swift */; };
+		B9708E7A2565F0F90001C091 /* BasedNavigationViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B9708E792565F0F90001C091 /* BasedNavigationViewController.swift */; };
+		B9722C9A256741D0006D4E44 /* ConfirmPhoneViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B9722C99256741D0006D4E44 /* ConfirmPhoneViewController.swift */; };
+		B9722C9E25676D14006D4E44 /* SignUpViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B9722C9D25676D14006D4E44 /* SignUpViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -28,6 +32,10 @@
 		B94D7713254A3FFC008E4F6E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		B94D771A254A409E008E4F6E /* UserInputTextField.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserInputTextField.swift; sourceTree = "<group>"; };
 		B9708E702565DD4B0001C091 /* ForgetPasswordViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ForgetPasswordViewController.swift; sourceTree = "<group>"; };
+		B9708E742565E61E0001C091 /* Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Extensions.swift; sourceTree = "<group>"; };
+		B9708E792565F0F90001C091 /* BasedNavigationViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BasedNavigationViewController.swift; sourceTree = "<group>"; };
+		B9722C99256741D0006D4E44 /* ConfirmPhoneViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ConfirmPhoneViewController.swift; sourceTree = "<group>"; };
+		B9722C9D25676D14006D4E44 /* SignUpViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignUpViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -60,17 +68,45 @@
 		B94D7704254A3FFB008E4F6E /* My heroes */ = {
 			isa = PBXGroup;
 			children = (
+				B9722C97256740B1006D4E44 /* ViewControllers */,
+				B9708E782565F0D90001C091 /* BasedViewController */,
+				B9708E732565E5EC0001C091 /* Helpers */,
 				B94D7705254A3FFB008E4F6E /* AppDelegate.swift */,
 				B94D7707254A3FFB008E4F6E /* SceneDelegate.swift */,
-				B94D7709254A3FFB008E4F6E /* LoginViewController.swift */,
 				B94D770B254A3FFB008E4F6E /* Main.storyboard */,
 				B94D770E254A3FFC008E4F6E /* Assets.xcassets */,
 				B94D7710254A3FFC008E4F6E /* LaunchScreen.storyboard */,
 				B94D7713254A3FFC008E4F6E /* Info.plist */,
 				B94D771A254A409E008E4F6E /* UserInputTextField.swift */,
-				B9708E702565DD4B0001C091 /* ForgetPasswordViewController.swift */,
 			);
 			path = "My heroes";
+			sourceTree = "<group>";
+		};
+		B9708E732565E5EC0001C091 /* Helpers */ = {
+			isa = PBXGroup;
+			children = (
+				B9708E742565E61E0001C091 /* Extensions.swift */,
+			);
+			path = Helpers;
+			sourceTree = "<group>";
+		};
+		B9708E782565F0D90001C091 /* BasedViewController */ = {
+			isa = PBXGroup;
+			children = (
+				B9708E792565F0F90001C091 /* BasedNavigationViewController.swift */,
+			);
+			path = BasedViewController;
+			sourceTree = "<group>";
+		};
+		B9722C97256740B1006D4E44 /* ViewControllers */ = {
+			isa = PBXGroup;
+			children = (
+				B9708E702565DD4B0001C091 /* ForgetPasswordViewController.swift */,
+				B94D7709254A3FFB008E4F6E /* LoginViewController.swift */,
+				B9722C99256741D0006D4E44 /* ConfirmPhoneViewController.swift */,
+				B9722C9D25676D14006D4E44 /* SignUpViewController.swift */,
+			);
+			path = ViewControllers;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -143,9 +179,13 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B9708E7A2565F0F90001C091 /* BasedNavigationViewController.swift in Sources */,
 				B94D770A254A3FFB008E4F6E /* LoginViewController.swift in Sources */,
 				B94D7706254A3FFB008E4F6E /* AppDelegate.swift in Sources */,
 				B9708E712565DD4B0001C091 /* ForgetPasswordViewController.swift in Sources */,
+				B9722C9A256741D0006D4E44 /* ConfirmPhoneViewController.swift in Sources */,
+				B9708E752565E61E0001C091 /* Extensions.swift in Sources */,
+				B9722C9E25676D14006D4E44 /* SignUpViewController.swift in Sources */,
 				B94D7708254A3FFB008E4F6E /* SceneDelegate.swift in Sources */,
 				B94D771B254A409E008E4F6E /* UserInputTextField.swift in Sources */,
 			);

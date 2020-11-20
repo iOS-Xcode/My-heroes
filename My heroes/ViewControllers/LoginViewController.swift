@@ -20,10 +20,8 @@ class LoginViewController: UIViewController {
             emailTextField.layer.borderWidth = 0.5
             emailTextField.text = ""
             //For make a left space in TextField
-            
             emailTextField.leftView = UIView(frame: CGRect(x: 0, y: 0, width: 10, height: emailTextField.frame.height))
             emailTextField.leftViewMode = .always
-            
         }
     }
     
